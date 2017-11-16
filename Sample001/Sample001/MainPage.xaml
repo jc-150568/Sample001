@@ -4,7 +4,7 @@
              x:Class="Sample001.MainPage"
              Title="MainPage">
     <StackLayout Padding="10">
-        <Button Text="Scan" Clicked="ScanButtonClicked" />
+        <Button Text="scan" Clicked="scanButtonClicked" />
         <!--<ListView ItemsSource="{Binding}" VerticalOptions="FillAndExpand"/>-->
     </StackLayout>
 </ContentPage>

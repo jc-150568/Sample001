@@ -23,7 +23,7 @@ namespace Sample001
             this.BindingContext = scanedData;
         }
 
-        async void ScanButtonClicked(object sender, EventArgs s)
+        async void scanButtonClicked(object sender, EventArgs s)
         {
             var scanPage = new ZXingScannerPage()
             {
